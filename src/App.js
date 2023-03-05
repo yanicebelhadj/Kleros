@@ -1,7 +1,7 @@
 import './App.css';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
-import HomePage from './routes/HomePage.jsx'
+import HomePage from './routes/HomePage/HomePage.jsx'
 import Actualites from './routes/Actualites.jsx'
 import Contact from './routes/Contact.jsx'
 import IdentiteValeurs from './routes/IdentiteValeurs.jsx'

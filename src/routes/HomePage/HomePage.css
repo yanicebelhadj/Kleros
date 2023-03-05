@@ -1,0 +1,68 @@
+.HomePage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2rem 50px;
+  max-width: 1440px;
+}
+.HomePage .text-area {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.HomePage .text-area .intro {
+  max-width: 595px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.HomePage .text-area .intro h1 {
+  display: flex;
+  flex-direction: column;
+  font-size: 48px;
+  font-weight: 600;
+  gap: 8px;
+}
+.HomePage .text-area .intro h1 span {
+  color: #406D70;
+}
+.HomePage .text-area .rendez-vous {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.HomePage .text-area .raccourcis {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.HomePage .text-area .raccourcis .raccourci {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 3rem 2rem;
+}
+.HomePage .text-area .raccourcis .raccourci .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+.HomePage .text-area .raccourcis .raccourci p {
+  text-align: center;
+  width: 315px;
+}
+.HomePage .text-area .raccourcis .line {
+  height: 87px;
+  width: 2px;
+  border-radius: 1px;
+  background-color: #D2D2D2;
+}
+.HomePage .image-area {
+  width: 500px;
+  border-radius: 4px;
+  margin-left: auto;
+}
+
+/*# sourceMappingURL=HomePage.css.map */

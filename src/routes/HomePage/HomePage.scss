@@ -1,0 +1,66 @@
+.HomePage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem 50px;
+    max-width: 1440px;
+    .text-area{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        .intro{
+            max-width: 595px;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            h1{
+                display: flex;
+                flex-direction: column;
+                font-size: 48px;
+                font-weight: 600;
+                gap: 8px;
+                span{
+                    color: #406D70;
+                }
+            }
+        }
+        .rendez-vous{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 1rem;
+        }
+        .raccourcis{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .raccourci{
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+                padding: 3rem 2rem;
+                .title{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    gap: 1rem;
+                }
+                p{
+                    text-align: center;
+                    width: 315px;
+                }
+            }
+            .line{
+                height: 87px;
+                width: 2px;
+                border-radius: 1px;
+                background-color: #D2D2D2;
+            }
+        }
+    }
+    .image-area{
+        width: 500px;
+        border-radius: 4px;
+        margin-left: auto;
+    }
+}
