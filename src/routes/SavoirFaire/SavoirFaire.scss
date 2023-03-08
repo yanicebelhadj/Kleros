@@ -1,0 +1,28 @@
+.SavoirFaire{
+    padding: 2rem 50px;
+    .resume{
+        gap: 6rem;
+        .p-xl-bold{
+            font-size: 48px;
+            line-height: 58.09px;
+            span{
+                color: #406D70;
+            }
+        }
+        .arguments{
+            gap: 1.5rem;
+            margin-left: auto;
+            .column{
+                gap: 8px;
+                .description{
+                    color: #5F5F5F;
+                }
+            }
+            .line{
+                width: 100%;
+                height: 1px;
+                background-color: #5F5F5F;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.IdentiteValeurs {
+  padding: 2rem 50px;
+}
+.IdentiteValeurs .header {
+  margin-bottom: 4rem;
+}
+.IdentiteValeurs .header .switch-btn {
+  margin-left: auto;
+}
+.IdentiteValeurs .header .switch-btn p:hover {
+  cursor: pointer;
+}
+.IdentiteValeurs .header .switch-btn p {
+  color: #A1A1A1;
+}
+.IdentiteValeurs .header .switch-btn p.active {
+  color: #000000;
+}
+.IdentiteValeurs .body {
+  gap: 4rem;
+}
+.IdentiteValeurs .body img {
+  max-width: 470px;
+}
+.IdentiteValeurs .body .text-area {
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+/*# sourceMappingURL=IdentiteValeurs.css.map */

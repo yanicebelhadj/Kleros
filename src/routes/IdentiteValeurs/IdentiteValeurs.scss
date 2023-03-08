@@ -1,0 +1,30 @@
+.IdentiteValeurs{
+    padding: 2rem 50px;
+    .header{
+        margin-bottom: 4rem;
+        .switch-btn{
+            margin-left: auto;
+            p:hover{
+                cursor: pointer;
+            }
+            p{
+                color: #A1A1A1;
+            }
+            p.active{
+                color: #000000;
+            }
+        }
+    }
+    .body{
+        gap: 4rem;
+        img{
+            max-width: 470px;
+        }
+        .text-area{
+            gap: 4rem;
+            align-items: flex-start;
+        }
+    }
+
+    
+}

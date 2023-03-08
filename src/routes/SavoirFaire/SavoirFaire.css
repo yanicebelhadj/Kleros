@@ -1,0 +1,30 @@
+.SavoirFaire {
+  padding: 2rem 50px;
+}
+.SavoirFaire .resume {
+  gap: 6rem;
+}
+.SavoirFaire .resume .p-xl-bold {
+  font-size: 48px;
+  line-height: 58.09px;
+}
+.SavoirFaire .resume .p-xl-bold span {
+  color: #406D70;
+}
+.SavoirFaire .resume .arguments {
+  gap: 1.5rem;
+  margin-left: auto;
+}
+.SavoirFaire .resume .arguments .column {
+  gap: 8px;
+}
+.SavoirFaire .resume .arguments .column .description {
+  color: #5F5F5F;
+}
+.SavoirFaire .resume .arguments .line {
+  width: 100%;
+  height: 1px;
+  background-color: #5F5F5F;
+}
+
+/*# sourceMappingURL=SavoirFaire.css.map */
