@@ -4,4 +4,17 @@
         height: 43px;
         border-radius: 48px;
     }
+    .title{
+        width: 247px;
+    }
+    .description{
+        width: 600px;
+        color: #5F5F5F;
+    }
+    .enSavoirPlusContainer{
+        margin-left: auto;
+        .enSavoirPlus{
+            width: 132px;
+        }
+    }
 }

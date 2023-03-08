@@ -3,5 +3,18 @@
   height: 43px;
   border-radius: 48px;
 }
+.SavoirFaireItem .title {
+  width: 247px;
+}
+.SavoirFaireItem .description {
+  width: 600px;
+  color: #5F5F5F;
+}
+.SavoirFaireItem .enSavoirPlusContainer {
+  margin-left: auto;
+}
+.SavoirFaireItem .enSavoirPlusContainer .enSavoirPlus {
+  width: 132px;
+}
 
 /*# sourceMappingURL=SavoirFaireItem.css.map */

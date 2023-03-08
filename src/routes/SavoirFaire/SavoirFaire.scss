@@ -1,5 +1,12 @@
 .SavoirFaire{
     padding: 2rem 50px;
+    h1{
+        margin-bottom: 3rem;
+    }
+    .savoirFaireItemContainer{
+        margin-bottom: 8rem;
+        gap: 4rem;
+    }
     .resume{
         gap: 6rem;
         .p-xl-bold{
