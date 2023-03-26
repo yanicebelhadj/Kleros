@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 import HomePage from './routes/HomePage/HomePage.jsx'
 import Actualites from './routes/Actualites/Actualites.jsx'
-import Contact from './routes/Contact.jsx'
+import Contact from './routes/Contact/Contact.jsx'
 import IdentiteValeurs from './routes/IdentiteValeurs/IdentiteValeurs.jsx'
 import Publications from './routes/Publications/Publications.jsx'
 import SavoirFaire from './routes/SavoirFaire/SavoirFaire.jsx'

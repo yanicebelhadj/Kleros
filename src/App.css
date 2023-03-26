@@ -220,3 +220,7 @@ ul{
 .align-start{
     align-items: flex-start ;
 }
+
+.space-between{
+    justify-content: space-between;
+}
