@@ -216,3 +216,7 @@ ul{
     display: flex;
     flex-direction: column;
 }
+
+.align-start{
+    align-items: flex-start ;
+}
