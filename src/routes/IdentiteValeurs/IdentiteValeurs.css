@@ -68,5 +68,10 @@
     order: 2;
   }
 }
+@media screen and (max-width: 715px) {
+  .IdentiteValeurs {
+    padding: 2rem 20px;
+  }
+}
 
 /*# sourceMappingURL=IdentiteValeurs.css.map */
