@@ -9,7 +9,7 @@ function Contact() {
         <div className="Contact">
             <h1>Contacts</h1>
             <img src= {Map} alt="Map" />
-            <div className="row space-between align-start">
+            <div className="text-area row align-start">
                 <div className="descriptions column">
                     <div className="description">
                         <p className="title p-xl-medium">Adresse</p>

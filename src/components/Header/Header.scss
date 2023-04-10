@@ -35,4 +35,124 @@
             height: 18px;
         }
     }
+
+    .burger{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Header{
+        .telephone{
+            p{
+                display: none;
+            }
+        }
+
+        .burger{
+            margin-right: 2rem;
+            display: flex;
+            width: 21px;
+            height: 14px;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            background: none;
+            border: none;
+            z-index: 4;
+            margin: 0 18px 0 32px;
+
+            .containerLines{
+                width: 21px;
+                height: 14px;
+                position: relative;
+
+                .lineBurger{
+                    position: absolute;
+                    border-radius: 3px;
+                    width: 18px;
+                    height: 2px;
+                    background: #000000;
+                    right: 0;
+
+                    transform: rotate(0deg);
+                    transition: 
+                    transform 0.15s ease-in-out,
+                    top 0.15s 0.15s ease-in-out;
+
+                }
+
+                .lineBurger:nth-child(1){
+                    top: 0;
+                }
+                
+                .lineBurger:nth-child(2){
+                    top: 6px;
+                    width: 21px;
+                }
+
+                .lineBurger:nth-child(3){
+                    top: 12px;
+                }
+
+                .active1{
+                    top: 6px !important;
+                    transform: rotate(45deg);
+                    transition: 
+                    top 0.4s ease-in-out,
+                    transform 0.4s 0.4s ease-in-out;
+                }
+                .active2{
+                    top: 6px !important;
+                    transform: rotate(-45deg);
+                    transition: 
+                    top 0.4s ease-in-out,
+                    transform 0.4s 0.4s ease-in-out;
+                }
+                .active3{
+                    opacity: 0;
+                    transition: 
+                    opacity 0.4s ease-in-out,
+                    transform 0.4s 0.4s ease-in-out;
+                }
+
+            }
+        }
+
+        .burger:hover{
+            cursor: pointer;
+        }
+
+        .menuPageActive{
+            position: fixed;
+            top: 67px;
+            left: 0;
+            width: 100vw;
+            height: calc(100vh - 67px);
+            background-color: #fff;
+            nav{
+                width: 100%;
+                margin-top: 2rem;
+                justify-content: center;
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    li a{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+
+        .nav-dektop{
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .Header{
+        padding: 8px 20px;
+    }
 }

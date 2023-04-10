@@ -6,27 +6,34 @@
     img{
         width: 100%;
         margin-bottom: 64px;
+        border-radius: 5px;
     }
-    .descriptions{
-        gap: 2rem;
-        .description{
-            .title{
-                color: #406D70;
-                margin-bottom: 8px;
+    .text-area{
+        gap: 64px;
+        .descriptions{
+            gap: 2rem;
+            .description{
+                .title{
+                    color: #406D70;
+                    margin-bottom: 8px;
+                }
             }
         }
-    }
-
-    .rendez-vous{
-        img{
-            width: 30px;
-            margin: 0;
+    
+        .rendez-vous{
+            p{
+                width: max-content;
+            }
+            img{
+                width: 30px;
+                margin: 0;
+            }
         }
-    }
-
-    .slogan{
-        span{
-            color: #406D70;
+    
+        .slogan{
+            span{
+                color: #406D70;
+            }
         }
     }
 }

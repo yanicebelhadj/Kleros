@@ -4,11 +4,12 @@
   justify-content: center;
   padding: 2rem 50px;
   max-width: 1440px;
+  margin: 0 auto;
 }
 .HomePage .text-area {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 5rem;
 }
 .HomePage .text-area .intro {
   max-width: 595px;
@@ -60,9 +61,52 @@
   background-color: #D2D2D2;
 }
 .HomePage .image-area {
-  width: 500px;
+  width: 35vw;
   border-radius: 4px;
   margin-left: auto;
+}
+.HomePage .mobile-image {
+  display: none;
+}
+
+@media screen and (max-width: 1345px) {
+  .HomePage {
+    flex-direction: column;
+  }
+  .HomePage .text-area {
+    flex-direction: row;
+    align-items: center;
+  }
+  .HomePage .text-area .raccourcis {
+    flex-direction: column;
+  }
+  .HomePage .text-area .raccourcis .raccourci {
+    padding: 1.5rem 1rem;
+  }
+  .HomePage .text-area .raccourcis .line {
+    height: 2px;
+    width: 120px;
+    border-radius: 1px;
+    background-color: #D2D2D2;
+  }
+  .HomePage .image-area {
+    margin: 0;
+  }
+  .HomePage .mobile-image {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .HomePage .desktop-image {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .HomePage .text-area {
+    flex-direction: column !important;
+  }
 }
 
 /*# sourceMappingURL=HomePage.css.map */

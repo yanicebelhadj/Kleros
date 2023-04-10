@@ -7,19 +7,26 @@
 .Contact img {
   width: 100%;
   margin-bottom: 64px;
+  border-radius: 5px;
 }
-.Contact .descriptions {
+.Contact .text-area {
+  gap: 64px;
+}
+.Contact .text-area .descriptions {
   gap: 2rem;
 }
-.Contact .descriptions .description .title {
+.Contact .text-area .descriptions .description .title {
   color: #406D70;
   margin-bottom: 8px;
 }
-.Contact .rendez-vous img {
+.Contact .text-area .rendez-vous p {
+  width: max-content;
+}
+.Contact .text-area .rendez-vous img {
   width: 30px;
   margin: 0;
 }
-.Contact .slogan span {
+.Contact .text-area .slogan span {
   color: #406D70;
 }
 
