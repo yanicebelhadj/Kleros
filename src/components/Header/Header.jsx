@@ -38,7 +38,7 @@ function Header() {
 
             {
                 active &&
-                <div className = "menuPageActive" >
+                <div className="menuPageActive" >
                     <nav>
                         <ul>
                             <li><Link onClick={() => setActive(!active)} to="/">Accueil</Link></li>

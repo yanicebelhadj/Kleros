@@ -38,6 +38,9 @@
 .Header .burger {
   display: none;
 }
+.Header .menuPageActive {
+  display: none;
+}
 
 @media screen and (max-width: 1200px) {
   .Header .telephone p {
@@ -99,6 +102,7 @@
     cursor: pointer;
   }
   .Header .menuPageActive {
+    display: block;
     position: fixed;
     top: 67px;
     left: 0;

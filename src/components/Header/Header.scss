@@ -39,6 +39,10 @@
     .burger{
         display: none;
     }
+
+    .menuPageActive{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -124,6 +128,7 @@
         }
 
         .menuPageActive{
+            display: block;
             position: fixed;
             top: 67px;
             left: 0;
