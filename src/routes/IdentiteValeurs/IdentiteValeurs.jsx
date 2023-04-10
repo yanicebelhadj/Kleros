@@ -53,7 +53,7 @@ function IdentiteValeurs() {
                         <p>
                             KLEROS s’engage à traiter chaque affaire dans le respect des règles déontologiques de la profession d’avocat, à savoir notamment la conscience, l’indépendance, la loyauté, et le secret professionnel.
                             <br/>
-                            <br/>Une fois examinée, votre dossier fera l’objet d’une réponse sur-mesure qui vous sera transmise.
+                            <br/>Une fois examiné, votre dossier fera l’objet d’une réponse sur-mesure qui vous sera transmise.
                         </p>
                         <img src={Valeurs} alt="Valeurs" />
                     </div>
