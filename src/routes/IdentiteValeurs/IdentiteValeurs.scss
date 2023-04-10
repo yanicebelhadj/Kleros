@@ -53,6 +53,14 @@
 
 @media screen and (max-width:870px) {
     .IdentiteValeurs{
+        .header{
+            align-items: flex-start;
+            margin-bottom: 24px;
+            .switch-btn{
+                flex-direction: column;
+            }
+
+        }
         .valeurs{
             .text-area{
                 flex-direction: column;

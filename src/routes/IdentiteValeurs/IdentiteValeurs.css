@@ -45,6 +45,13 @@
   }
 }
 @media screen and (max-width: 870px) {
+  .IdentiteValeurs .header {
+    align-items: flex-start;
+    margin-bottom: 24px;
+  }
+  .IdentiteValeurs .header .switch-btn {
+    flex-direction: column;
+  }
   .IdentiteValeurs .valeurs .text-area {
     flex-direction: column;
   }

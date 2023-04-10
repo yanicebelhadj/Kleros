@@ -43,6 +43,9 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .Header .telephone {
+    border: 1px solid #000000;
+  }
   .Header .telephone p {
     display: none;
   }
