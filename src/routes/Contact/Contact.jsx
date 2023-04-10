@@ -1,6 +1,6 @@
 import Map from "../../medias/map.png"
 
-import arrowInCircle from "../../icons/arrowInCircle.svg"
+// import arrowInCircle from "../../icons/arrowInCircle.svg"
 
 import "./Contact.css"
 
@@ -8,7 +8,9 @@ function Contact() {
     return(
         <div className="Contact">
             <h1>Contacts</h1>
-            <img src= {Map} alt="Map" />
+            <div className="map">
+                <img src= {Map} alt="Map" />    
+            </div>
             <div className="text-area row align-start">
                 <div className="descriptions column">
                     <div className="description">
@@ -27,10 +29,12 @@ function Contact() {
                         <p className="p-m-regular">07 64 27 53 80</p>
                     </div>
                 </div>
+                {/* 
                 <div className="row rendez-vous">
                     <p>Prendre rendez-vous</p>
                     <img src={arrowInCircle} alt="Button to calendly" />
-                </div>
+                </div> 
+                */}
                 <div className="slogan">
                     <p className="h1-l">Le droit au service de <span>l’humain.</span></p>
                 </div>

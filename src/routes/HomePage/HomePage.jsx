@@ -7,7 +7,7 @@ import "./HomePage.css"
 
 function HomePage() {
     return(
-        <div className="HomePage container">
+        <div className="HomePage">
             <div className="text-area">
                 <div className="intro">
                     <h1>KLEROS<span>SOCIÉTÉ D’AVOCATS</span></h1>
@@ -19,10 +19,14 @@ function HomePage() {
                         à leurs besoins, qu’il s’agisse de particuliers, ou d’institutionnels.
                     </p>
                 </div>
-                {/* <div className="rendez-vous">
+
+                {/* 
+                <div className="rendez-vous">
                     <p>Prendre rendez-vous</p>
                     <img src={arrowInCircle} alt="Button to calendly" />
-                </div> */}
+                </div> 
+                */}
+                
                 <div className="raccourcis">
                     <Link to="/SavoirFaire" className="raccourci">
                         <div className="title">

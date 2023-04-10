@@ -32,7 +32,7 @@ function IdentiteValeurs() {
 
             {
                 identiteValeurs === "Identite" ?
-                <div className="row body">
+                <div className="row body identite">
                     <img src={Identite} alt="Identite" />
                     <p>
                         KLEROS accompagne les salariés devant le Conseil de prud’hommes dans leurs contestations (licenciements, harcèlement, discrimination, heures supplémentaires, repositionnement, etc), ainsi que les employeurs notamment dans la mise en place des élections professionnelles et le contentieux devant le pôle social du Tribunal judiciaire.
@@ -45,7 +45,7 @@ function IdentiteValeurs() {
                     </p>
                 </div>
                 :
-                <div className="column body">
+                <div className="column body valeurs">
                     <p>
                         Conscients de la gravité des situations de chacun et de l’importance d’observer les délais procéduraux, nos avocats s’engagent à prendre connaissance de votre affaire et vous fixer rendez-vous dans les meilleurs délais.
                     </p>

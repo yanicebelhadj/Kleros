@@ -1,12 +1,20 @@
 .Contact{
     padding: 2rem 50px;
+    max-width: 1440px;
+    margin: 0 auto;
     h1{
         margin-bottom: 48px;
     }
-    img{
+    .map{
         width: 100%;
-        margin-bottom: 64px;
-        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        img{
+            width: 100%;
+            max-width: 1000px;
+            margin-bottom: 64px;
+            border-radius: 5px;
+        }
     }
     .text-area{
         gap: 64px;
@@ -34,6 +42,19 @@
             span{
                 color: #406D70;
             }
+        }
+    }
+}
+
+@media screen and (max-width:715px){
+    .Contact{
+        padding: 2rem 20px;
+
+        h1{
+            margin-bottom: 24px;
+        }
+        .text-area{
+            flex-direction: column;
         }
     }
 }

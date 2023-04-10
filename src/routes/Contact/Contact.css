@@ -1,11 +1,19 @@
 .Contact {
   padding: 2rem 50px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .Contact h1 {
   margin-bottom: 48px;
 }
-.Contact img {
+.Contact .map {
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.Contact .map img {
+  width: 100%;
+  max-width: 1000px;
   margin-bottom: 64px;
   border-radius: 5px;
 }
@@ -28,6 +36,18 @@
 }
 .Contact .text-area .slogan span {
   color: #406D70;
+}
+
+@media screen and (max-width: 715px) {
+  .Contact {
+    padding: 2rem 20px;
+  }
+  .Contact h1 {
+    margin-bottom: 24px;
+  }
+  .Contact .text-area {
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=Contact.css.map */

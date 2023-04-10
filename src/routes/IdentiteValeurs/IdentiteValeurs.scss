@@ -1,5 +1,8 @@
 .IdentiteValeurs{
     padding: 2rem 50px;
+    max-width: 1440px;
+    margin: 0 auto;
+
     .header{
         margin-bottom: 4rem;
         .switch-btn{
@@ -24,7 +27,49 @@
             gap: 4rem;
             align-items: flex-start;
         }
+
+        img{
+            border-radius: 7px;
+        }
     }
 
+    
+}
+
+@media screen and (max-width:1180px) {
+    .IdentiteValeurs{
+        .identite{
+            flex-direction: column;
+            img{
+                margin: 0 auto;
+                width: 100%;
+                max-width: 570px;
+                height: 200px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:870px) {
+    .IdentiteValeurs{
+        .valeurs{
+            .text-area{
+                flex-direction: column;
+                img{
+                    order: 1;
+                    display: block;
+                    margin: 0 auto;
+                    width: 100%;
+                    max-width: 570px;
+                    height: 200px;
+                    object-fit: cover;
+                }
+                p{
+                    order: 2;
+                }
+            }
+        }
+    }
     
 }
