@@ -26,8 +26,15 @@
     width: 80vw;
     background-color: #fff;
   }
+  .SavoirFaireItem .title {
+    font-size: 16px;
+  }
   .SavoirFaireItem .description {
     display: none;
+  }
+  .SavoirFaireItem .enSavoirPlusContainer .enSavoirPlus {
+    font-size: 12px;
+    width: 80px;
   }
 }
 

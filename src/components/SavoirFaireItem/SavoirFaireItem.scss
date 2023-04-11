@@ -29,8 +29,18 @@
             width: 80vw;
             background-color: #fff;
         }
+        .title{
+            font-size: 16px;
+        }
+
         .description{
             display: none;
+        }
+        .enSavoirPlusContainer{
+            .enSavoirPlus{
+                font-size: 12px;
+                width: 80px;
+            }
         }
     }
 }
