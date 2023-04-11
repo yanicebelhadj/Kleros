@@ -108,5 +108,10 @@
     flex-direction: column !important;
   }
 }
+@media screen and (max-width: 715px) {
+  .HomePage {
+    padding: 2rem 20px;
+  }
+}
 
 /*# sourceMappingURL=HomePage.css.map */
