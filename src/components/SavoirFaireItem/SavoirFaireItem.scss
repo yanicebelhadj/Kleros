@@ -17,4 +17,17 @@
             width: 132px;
         }
     }
+    .enSavoirPlusContainer:hover{
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .SavoirFaireItem{
+        .modalSavoirFaire{
+            position: fixed;
+            width: 80vw;
+            background-color: #fff;
+        }
+    }
 }

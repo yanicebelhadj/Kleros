@@ -16,5 +16,16 @@
 .SavoirFaireItem .enSavoirPlusContainer .enSavoirPlus {
   width: 132px;
 }
+.SavoirFaireItem .enSavoirPlusContainer:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 880px) {
+  .SavoirFaireItem .modalSavoirFaire {
+    position: fixed;
+    width: 80vw;
+    background-color: #fff;
+  }
+}
 
 /*# sourceMappingURL=SavoirFaireItem.css.map */
