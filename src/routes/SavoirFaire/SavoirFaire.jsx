@@ -1,4 +1,3 @@
-import { useState } from "react"
 import SavoirFaireItem from "../../components/SavoirFaireItem/SavoirFaireItem"
 
 import Consultations from "../../icons/Consultations.svg"
@@ -12,7 +11,6 @@ import OQTF from "../../medias/OQTF.png"
 import "./SavoirFaire.css"
 
 function SavoirFaire() {
-    const [active0, setActive0] = useState(false);
 
     const tabSavoiFaire = [
         {
@@ -47,34 +45,17 @@ function SavoirFaire() {
             <h1>Savoir-faire</h1>
 
             <div className="savoirFaireItemContainer column">
-                {console.log(active0)}
-                <div onClick={() => setActive0(true)}>
-                    <SavoirFaireItem 
-                        image={tabSavoiFaire[0].img} 
-                        title= {tabSavoiFaire[0].title}
-                        description= {tabSavoiFaire[0].description}
-                    />
-                </div>
-                <SavoirFaireItem 
-                    image={tabSavoiFaire[1].img} 
-                    title= {tabSavoiFaire[1].title}
-                    description= {tabSavoiFaire[1].description}
-                />
-                <SavoirFaireItem 
-                    image={tabSavoiFaire[2].img} 
-                    title= {tabSavoiFaire[2].title}
-                    description= {tabSavoiFaire[2].description}
-                />
-                <SavoirFaireItem 
-                    image={tabSavoiFaire[3].img} 
-                    title= {tabSavoiFaire[3].title}
-                    description= {tabSavoiFaire[3].description}
-                />
-                <SavoirFaireItem 
-                    image={tabSavoiFaire[4].img} 
-                    title= {tabSavoiFaire[4].title}
-                    description= {tabSavoiFaire[4].description}
-                />
+                {
+                    tabSavoiFaire.map(item => {
+                        return(
+                            <SavoirFaireItem 
+                                image={item.img} 
+                                title= {item.title}
+                                description= {item.description}
+                            />
+                        )
+                    })
+                }
             </div>
 
             <div className="row resume">

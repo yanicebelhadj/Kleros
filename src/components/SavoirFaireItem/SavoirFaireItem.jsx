@@ -23,7 +23,7 @@ function SavoirFaireItem(props){
             {
                 active &&
                 <div className="modalSavoirFaire">
-                    <div>
+                    <div className="row">
                         <p>{props.title}</p>
                         <p onClick={() => setActive(false)}>X</p>
                     </div>

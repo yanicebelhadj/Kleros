@@ -34,6 +34,22 @@
     }
 }
 
-@media screen and (max-width: 970px) {
-    
+@media screen and (max-width: 835px) {
+    .SavoirFaire{
+        .resume{
+            flex-direction: column;
+            p{
+                order: 2;
+            }
+            .arguments{
+                order: 1;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:715px){
+    .SavoirFaire{
+        padding: 2rem 20px;
+    }
 }

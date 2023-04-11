@@ -26,6 +26,9 @@
     width: 80vw;
     background-color: #fff;
   }
+  .SavoirFaireItem .description {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=SavoirFaireItem.css.map */
