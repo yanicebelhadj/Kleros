@@ -59,7 +59,7 @@
     align-items: center;
     background: none;
     border: none;
-    z-index: 4;
+    z-index: 0;
     margin: 0 18px 0 32px;
   }
   .Header .burger .containerLines {
