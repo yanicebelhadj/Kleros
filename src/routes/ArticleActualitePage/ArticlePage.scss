@@ -1,0 +1,44 @@
+.Actualites{
+    .image-area{
+        width: 100vw;
+        margin: -2rem 0 0 -50px ;
+        height: 290px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .text-area{
+        margin: 0 auto;
+        max-width: 800px;
+        h1{
+            margin-top: 4rem;
+        }
+        p{
+            text-align: justify;
+            white-space: pre-line;
+        }
+
+            .fileLink{
+                width: 100%;
+                padding: 1rem;
+                background-color: #F9F9FB;
+                border-radius: 3px;
+                margin-top: 3rem;
+                color: #404040;
+                box-sizing: border-box;
+            }
+            .fileLink:hover{
+                background-color: #ededf1;
+            }
+        
+    }
+}
+
+@media screen and (max-width:715px){
+    .Actualites{
+        padding: 2rem 20px;
+        h1{
+            font-size: 24px;
+        }
+    }
+}
