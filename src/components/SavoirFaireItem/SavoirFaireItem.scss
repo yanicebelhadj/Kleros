@@ -32,6 +32,7 @@
     height: 100vh;
     background-color: rgba(0,0,0,0.5);
     .modalSavoirFaire{
+        z-index: 4;
         padding: 2rem;
         position: fixed;
         left: 50%;
