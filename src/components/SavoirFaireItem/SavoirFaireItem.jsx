@@ -1,6 +1,7 @@
 import { useState } from "react"
 import ArrowDesktop from "../../icons/arrowInCircle.svg"
 import ArrowMobile from "../../icons/More.svg"
+import close from "../../icons/close.svg"
 import "./SavoirFaireItem.css"
 
 function SavoirFaireItem(props){
@@ -24,12 +25,16 @@ function SavoirFaireItem(props){
             </div>
             {
                 active &&
-                <div className="modalSavoirFaire">
-                    <div className="row">
-                        <p>{props.title}</p>
-                        <p onClick={() => setActive(false)}>X</p>
+                <div className="backgroundModal">
+                    <div className="modalSavoirFaire">
+                        <div className="headerModal">
+                            <p className="titleModal">{props.title}</p>
+                            <div className="close" onClick={() => setActive(false)}>
+                                <img src={close} alt="close" />
+                            </div>
+                        </div>
+                        <p>{props.description}</p>
                     </div>
-                    <p>{props.description}</p>
                 </div>
             }
         </div>

@@ -23,12 +23,56 @@
   cursor: pointer;
 }
 
+.backgroundModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.backgroundModal .modalSavoirFaire {
+  padding: 2rem;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 800px;
+  width: 80vw;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.backgroundModal .modalSavoirFaire .headerModal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.backgroundModal .modalSavoirFaire .headerModal .titleModal {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+}
+.backgroundModal .modalSavoirFaire .headerModal .close {
+  width: 2rem;
+  height: 2rem;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.backgroundModal .modalSavoirFaire .headerModal .close img {
+  width: 1.5rem;
+}
+.backgroundModal .modalSavoirFaire .headerModal .close:hover {
+  background-color: #F2F2F2;
+}
+
 @media screen and (max-width: 880px) {
-  .SavoirFaireItem .modalSavoirFaire {
-    position: fixed;
-    width: 80vw;
-    background-color: #fff;
-  }
   .SavoirFaireItem .title {
     font-size: 18px;
   }
