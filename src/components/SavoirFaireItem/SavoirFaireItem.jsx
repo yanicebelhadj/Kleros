@@ -1,5 +1,6 @@
 import { useState } from "react"
-import Arrow from "../../icons/arrowInCircle.svg"
+import ArrowDesktop from "../../icons/arrowInCircle.svg"
+import ArrowMobile from "../../icons/More.svg"
 import "./SavoirFaireItem.css"
 
 function SavoirFaireItem(props){
@@ -17,7 +18,8 @@ function SavoirFaireItem(props){
                 }
                 <div onClick={() => setActive(true)} className="row enSavoirPlusContainer">
                     <p className="p-l-medium enSavoirPlus">En savoir plus</p>
-                    <img src={Arrow} alt="En savoir plus" />
+                    <img class="desktop" src={ArrowDesktop} alt="En savoir plus" />
+                    <img class="mobile" src={ArrowMobile} alt="En savoir plus" />
                 </div>
             </div>
             {

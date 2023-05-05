@@ -16,6 +16,9 @@
         .enSavoirPlus{
             width: 132px;
         }
+        .mobile{
+            display: none;
+        }
     }
     .enSavoirPlusContainer:hover{
         cursor: pointer;
@@ -30,17 +33,24 @@
             background-color: #fff;
         }
         .title{
-            font-size: 16px;
+            font-size: 18px;
         }
 
         .description{
             display: none;
         }
+
         .enSavoirPlusContainer{
-            .enSavoirPlus{
-                font-size: 12px;
-                width: 80px;
+            .mobile{
+                display: block;
+            }
+            .desktop{
+                display: none;
+            }
+            p{
+                display: none;
             }
         }
+
     }
 }

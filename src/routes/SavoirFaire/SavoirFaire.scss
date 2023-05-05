@@ -51,5 +51,19 @@
 @media screen and (max-width:715px){
     .SavoirFaire{
         padding: 2rem 20px;
+        .savoirFaireItemContainer{
+            margin-bottom: 5rem;
+        }
+        .resume{
+            .slogan{
+                font-size: 36px;
+                line-height: 43.09px;
+            }
+            .arguments{
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
     }
 }

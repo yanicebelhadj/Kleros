@@ -8,5 +8,12 @@
 @media screen and (max-width:715px){
     .Actualites{
         padding: 2rem 20px;
+        .image-area{
+            margin: -2rem 0 0 -20px !important ;
+            height: 200px;
+        }
+        h1{
+            font-size: 24px;
+        }
     }
 }

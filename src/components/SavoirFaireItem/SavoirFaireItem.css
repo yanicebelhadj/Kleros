@@ -16,6 +16,9 @@
 .SavoirFaireItem .enSavoirPlusContainer .enSavoirPlus {
   width: 132px;
 }
+.SavoirFaireItem .enSavoirPlusContainer .mobile {
+  display: none;
+}
 .SavoirFaireItem .enSavoirPlusContainer:hover {
   cursor: pointer;
 }
@@ -27,14 +30,19 @@
     background-color: #fff;
   }
   .SavoirFaireItem .title {
-    font-size: 16px;
+    font-size: 18px;
   }
   .SavoirFaireItem .description {
     display: none;
   }
-  .SavoirFaireItem .enSavoirPlusContainer .enSavoirPlus {
-    font-size: 12px;
-    width: 80px;
+  .SavoirFaireItem .enSavoirPlusContainer .mobile {
+    display: block;
+  }
+  .SavoirFaireItem .enSavoirPlusContainer .desktop {
+    display: none;
+  }
+  .SavoirFaireItem .enSavoirPlusContainer p {
+    display: none;
   }
 }
 

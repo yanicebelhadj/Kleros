@@ -59,7 +59,7 @@ function SavoirFaire() {
             </div>
 
             <div className="row resume">
-                <p className="p-xl-bold">Le droit au service de <span>l’humain</span>.</p>
+                <p className="slogan p-xl-bold">Le droit au service de <span>l’humain</span>.</p>
                 <div className="column arguments">
                     <div className="row">
                         <img src={Consultations} alt="Consultations" />

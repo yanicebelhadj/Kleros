@@ -4,6 +4,11 @@
 .Publications h1 {
   margin-bottom: 48px;
 }
+.Publications .publicationList {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
 
 @media screen and (max-width: 715px) {
   .Publications {

@@ -9,6 +9,13 @@
   .Actualites {
     padding: 2rem 20px;
   }
+  .Actualites .image-area {
+    margin: -2rem 0 0 -20px !important;
+    height: 200px;
+  }
+  .Actualites h1 {
+    font-size: 24px;
+  }
 }
 
 /*# sourceMappingURL=Actualites.css.map */
